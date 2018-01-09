@@ -1,0 +1,140 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+h1,h2,h3,h4 {
+  padding: 10px;
+  margin: 0px;
+}
+nav {
+  text-align: right;
+  flex-grow: 1;
+  margin-right: 20px;
+}
+
+header {
+  display: flex;
+  position: fixed;
+  top: 0px;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  align-items: center;
+  background-color: black;
+}
+
+header a {
+  color: seashell;
+  text-decoration: underline;
+}
+
+header img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+footer {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+}
+
+.menu span {
+  margin-left: 10px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.mission {
+  padding-top: 69px;
+  height: 700px;
+  width: 1200px;
+  background-image: url("Resources/mission-background.jpg");
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+.mission-title {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  text-align: center;
+  width: 1200px;
+  margin-top: 20px;
+}
+
+.featured-tea {
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 50px;
+  margin: auto;
+  align-items: center;
+}
+
+.tea-selection {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  justify-content: center;
+}
+
+.tea {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-bottom: 20px;
+
+}
+
+.tea img {
+  height: 200px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+.locations {
+  display: flex;
+  background-image: url(Resources/locations-background.jpg);
+  padding: 80px;
+  height: 500px;
+  margin: auto;
+  width: 980px;
+  text-align: center;
+  flex-direction: column;
+}
+
+.places {
+  display: flex;
+  padding-top: 15px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+.place {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  width: 300px;
+  opacity: 1;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 200px;
+}
